@@ -1,10 +1,10 @@
 Flashread : AI-Powered news digest app
-
    This web application that fetches the latest trending news, summarizes each article using AI, and provides sentiment analysis with key takeaways
 
 
-Live Demo 
+Live Demo
 This web application deployed publically.
+
 Backend(Raiways)
 - Base URL: [https://flashreadbackend-production.up.railway.app](https://flashreadbackend-production.up.railway.app)
   
