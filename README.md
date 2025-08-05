@@ -11,8 +11,7 @@ This web application is deployed publicly.
 - **Base URL**: [https://flashreadbackend-production.up.railway.app](https://flashreadbackend-production.up.railway.app)  
 &nbsp;  
 - **News Endpoint**: [https://flashreadbackend-production.up.railway.app/news](https://flashreadbackend-production.up.railway.app/news)  
-&nbsp;  
-_(The articles are fetched from this endpoint)_
+&nbsp;  _(You can see the fetched articles here. )
 
 
 
