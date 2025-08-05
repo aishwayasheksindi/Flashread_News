@@ -8,11 +8,15 @@ This web application fetches the latest trending news, summarizes each article u
 
 This web application is deployed publicly.
 
-### Backend (Hosted on Railway)
+### Backend (Railway)
 
-- **Base URL**     :     [https://flashreadbackend-production.up.railway.app](https://flashreadbackend-production.up.railway.app)  
-- **News Endpoint**: [https://flashreadbackend-production.up.railway.app/news](https://flashreadbackend-production.up.railway.app/news)  
-  _(The articles are fetched from this endpoint)_
+| Endpoint         | URL                                                                 |
+|------------------|----------------------------------------------------------------------|
+| **Base URL**     | [https://flashreadbackend-production.up.railway.app](https://flashreadbackend-production.up.railway.app) |
+| **News Endpoint**| [https://flashreadbackend-production.up.railway.app/news](https://flashreadbackend-production.up.railway.app/news) |
+
+_The articles are fetched from this endpoint._
+
 
 
 
