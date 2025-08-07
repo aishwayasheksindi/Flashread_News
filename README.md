@@ -14,11 +14,9 @@ This web application is deployed publicly.
   (It shows fetched articles.)
 
   >  **Note: GNews API Limitations**
->
-> FlashRead uses the **free tier of the GNews API**, which has a limit of **100 requests per day**.
-> If no news articles are displayed, it might be due to this daily usage limit being exceeded.
->
-> Please try again after 24 hours.
+     > FlashRead uses the **free tier of the GNews API**, which has a limit of **100 requests per day**.
+     > If no news articles are displayed, it might be due to this daily usage limit being exceeded.
+     > Please try again after 24 hours.
     
   
 
