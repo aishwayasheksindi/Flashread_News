@@ -34,11 +34,16 @@ This web application is deployed publicly.
 - After entering a topic, users can **optionally apply country and date filters** on top of their search to refine results.
 
 
+
+
 -  **No Articles?**  
   If no articles are shown for a given input combination:
   - It may be because there are **no relevant articles** matching the criteria.
   - Click the **Clear** button to reset filters and try different combinations.
   - If the issue persists, it likely means no articles exist for those specific inputs.
+
+- **Important Note**
+GNews doesn’t allow combining filters at a deep semantic level. It treats them as surface-level metadata filters and can't deeply understand the real meaning of the article.
 
     
   
