@@ -39,7 +39,7 @@ This web application is deployed publicly.
   - Click the **Clear** button to reset filters and try different combinations.
   - If the issue persists, it likely means no articles exist for those specific inputs.
 
-  > **Important Note**
+  > **Important Note**  
   > GNews doesn’t allow combining filters at a deep semantic level. It treats them as surface-level metadata filters and can't deeply understand the real meaning of the article.
 
     
