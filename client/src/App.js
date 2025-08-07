@@ -58,7 +58,7 @@ function App() {
 
     setLoading(true);
     try {
-      const res = await axios.get('/api/news', {
+      const res = await axios.get('https://flashreadbackend-production.up.railway.app/api/news', {
         params: {
           topic: effectiveTopic || '',
           country: effectiveCountry || '',
