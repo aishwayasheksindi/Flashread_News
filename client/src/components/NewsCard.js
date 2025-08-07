@@ -20,7 +20,7 @@ function NewsCard({ title, description, url, image, publishedAt, source, content
     setLoading(true);
     setError('');
     try {
-      const res = await axios.post('/api/ai/summarize', { content, description });
+      const res = await axios.post('https://flashreadbackend-production.up.railway.app/api/ai/summarize', { content, description });
       setSummary(res.data.summary);
       setBullets(res.data.bulletPoints);
       setSentiment(res.data.sentiment);
