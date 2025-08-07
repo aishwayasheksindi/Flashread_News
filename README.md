@@ -20,7 +20,7 @@ This web application is deployed publicly.
   >
   > 
 ---
-##  How FlashRead Works
+##  Usage Tips and limitations.  
 
 - Users can search for news by selecting:
   - **Country**
