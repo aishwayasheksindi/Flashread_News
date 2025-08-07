@@ -17,6 +17,27 @@ This web application is deployed publicly.
      > FlashRead uses the **free tier of the GNews API**, which has a limit of **100 requests per day**.
      > If no news articles are displayed, it might be due to this daily usage limit being exceeded.
      > Please try again after 24 hours.
+
+###  How FlashRead Works
+
+- Users can search for news by selecting:
+  - **Country**
+  - **Category**
+  - **From and To Dates**
+  - Or combine these filters for more specific results.
+
+- Alternatively, users can type a **custom topic** in the **search bar** (e.g., “AI”, “Elections in India”, “Climate change”).  
+  This allows access to a wider range of topics beyond those available in the category dropdown.
+
+- After entering a topic, users can **optionally apply country and date filters** on top of their search to refine results.
+
+
+- 🔄 **No Articles?**  
+  If no articles are shown for a given input combination:
+  - It may be because there are **no relevant articles** matching the criteria.
+  - Click the **Clear** button to reset filters and try different combinations.
+  - If the issue persists, it likely means no articles exist for those specific inputs.
+
     
   
 
