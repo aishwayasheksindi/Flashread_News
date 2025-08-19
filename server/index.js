@@ -12,13 +12,12 @@ app.use(express.json());
 app.use('/api/news', newsRoutes);
 app.use('/api/ai', aiRoutes);
 
-// Root route to test server
+// Root route
 app.get('/', (req, res) => {
   res.send('FlashRead backend is running successfully!');
 });
 
-// ✅ Always use Railway’s assigned PORT
-const PORT = process.env.PORT || 8080;
-app.listen(PORT, () => {
+const PORT = process.env.PORT || 5000;  // ✅ Important
+app.listen(PORT, '0.0.0.0', () => {     // ✅ bind to 0.0.0.0
   console.log(`FlashRead backend is running on port ${PORT}`);
 });
