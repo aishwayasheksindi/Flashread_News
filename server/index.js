@@ -17,7 +17,8 @@ app.get('/', (req, res) => {
   res.send('FlashRead backend is running successfully!');
 });
 
-const PORT = process.env.PORT || 5000;
-app.listen(PORT, '0.0.0.0', () => {
+// ✅ Always use Railway’s assigned PORT
+const PORT = process.env.PORT || 8080;
+app.listen(PORT, () => {
   console.log(`FlashRead backend is running on port ${PORT}`);
 });
