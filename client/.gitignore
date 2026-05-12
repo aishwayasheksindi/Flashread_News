@@ -1,0 +1,10 @@
+*.env
+*.env.backup
+server/.env
+client/.env
+client/.env.backup
+.env
+node_modules/
+server/node_modules/
+client/node_modules/
+client/build/
