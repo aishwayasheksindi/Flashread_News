@@ -53,7 +53,7 @@ function App() {
 
     setLoading(true);
     try {
-      const res = await axios.get('https://flashreadbackend-production.up.railway.app/api/news', {
+      const res = await axios.get('backendserver-three.vercel.app', {
         params: {
           topic: effectiveTopic || '',
           country: effectiveCountry || '',
