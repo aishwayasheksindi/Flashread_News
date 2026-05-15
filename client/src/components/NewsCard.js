@@ -3,7 +3,7 @@ import { Card, Button, Spinner, Badge } from 'react-bootstrap';
 import axios from 'axios';
 
 // Fix: must be full URL in local dev — relative /api/... goes to React port 3000, not Express 5000
-const API_BASE = process.env.REACT_APP_API_URL || 'http://localhost:5000';
+const API_BASE = 'https://backendserver-three.vercel.app';
 
 function NewsCard({ title, description, url, image, publishedAt, source, content }) {
   const [summary, setSummary] = useState('');
