@@ -53,7 +53,7 @@ function App() {
 
     setLoading(true);
     try {
-      const res = await axios.get('backendserver-three.vercel.app', {
+      const res = await axios.get('https://backendserver-three.vercel.app', {
         params: {
           topic: effectiveTopic || '',
           country: effectiveCountry || '',
