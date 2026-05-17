@@ -8,7 +8,7 @@ This web application fetches the latest trending news, summarizes each article u
 
 This web application is deployed publicly.
 
-**Frontend (Vercel)**: [https://flashread-frontend.vercel.app](https://flashread-news.vercel.app)
+**Frontend (Vercel)**: [https://flashreadnews.vercel.app/](https://flashreadnews.vercel.app/)
 
   >  **Note: GNews API Limitations**  
      > FlashRead uses the **free tier of the GNews API**, which has a limit of **100 requests per day**.  
